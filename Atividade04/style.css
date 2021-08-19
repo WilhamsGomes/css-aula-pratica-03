@@ -1,0 +1,65 @@
+*{
+    padding: 0; /*Zerando margens e espaçamento*/
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+li {
+    display: inline; /*Remove a quebra de linha*/
+    float: right; /*Flutuando ao lado direito*/
+}
+
+li a {
+    display: block; /*Especificar o preenchimento*/
+    padding: 15px; /*Espaçamento entre as opções*/
+    text-decoration: none; /*Removendo decoração do texto*/
+    color: cornsilk;
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none; 
+    overflow: hidden;
+    background-color: #b3949b;
+    height: 50px;
+}
+
+li a:hover{
+    background-color: #a37c87;
+}
+
+img {
+    width: 70% ;
+    height: 50%;
+    padding-top: 20px;
+
+}
+
+.img{
+    text-align: center;
+}
+
+.title p{
+    background-color: #b3949b;
+    width: 100px;
+    padding-left: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: -2px;
+    padding-left: 100px; /*Aqui define a distância entre o elemento e a borda*/
+    margin-left: 100px; /*Margin*/
+    text-align: left;
+}
+
+article{
+    padding-left: 100px; /*Aqui define a distância entre o elemento e a borda*/
+    margin-left: 100px; /*Margin*/
+}
+
+
+
+

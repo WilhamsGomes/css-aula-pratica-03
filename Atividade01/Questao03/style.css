@@ -1,0 +1,29 @@
+h1{
+    font-style: oblique;
+    font-size: 18px;
+}
+
+.div1{
+
+    display: inline-block;
+}
+
+p{
+    font-size: 25px;
+
+}
+
+p:hover{
+    color: red;
+    
+}
+
+img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+img:hover{
+    
+}
